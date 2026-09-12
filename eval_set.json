@@ -1,0 +1,127 @@
+[
+  {
+    "query": "What happens if I miss my exam because I have to attend my sister's wedding?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Rulebook covers medical absences but says nothing about family events or weddings."
+  },
+  {
+    "query": "Can the appeals committee waive my tuition late fee if my father lost his job?",
+    "expected_state": "CONTRADICTION",
+    "reasoning": "Clause 3.4 says no committee can waive it, but Clause 4.2 says the Appeals committee can waive financial late penalties."
+  },
+  {
+    "query": "What is the penalty if I pay my hostel fee on September 5th?",
+    "expected_state": "CONSENSUS",
+    "reasoning": "Clearly stated in the Section 3 table as $100 after Sept 1st."
+  },
+  {
+    "query": "Does a medical note excuse me from the 75% attendance rule for exams?",
+    "expected_state": "CONTRADICTION",
+    "reasoning": "Clause 1.1 says no exceptions, Clause 2.2 says it waives all attendance requirements."
+  },
+  {
+    "query": "Can I check out an encyclopedia to study in my dorm room?",
+    "expected_state": "CONSENSUS",
+    "reasoning": "Clause 5.2 explicitly says reference materials cannot be removed under any circumstances."
+  },
+  {
+    "query": "If I am 10 minutes late to class, does it count as an absence?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 1.2 specifies tardiness exceeding 15 minutes, but doesn't explicitly state the rule for 10 minutes (it might just be a warning, or nothing)."
+  },
+  {
+    "query": "Can the Student Union President keep their job if their GPA drops to 1.8?",
+    "expected_state": "CONTRADICTION",
+    "reasoning": "Clause 9.2 says students on probation (GPA < 2.0) cannot hold executive roles. Clause 9.3 says the Union President keeps their role regardless of academic standing."
+  },
+  {
+    "query": "Will I be expelled if I am caught plagiarizing a research paper?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 7.1 mentions failing grades and suspension, but says nothing explicitly about expulsion."
+  },
+  {
+    "query": "How many days can a graduate student borrow a book for?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 5.1 only mentions borrowing rules for undergraduate students."
+  },
+  {
+    "query": "Can my brother stay overnight in my dorm if he is visiting from out of town?",
+    "expected_state": "CONSENSUS",
+    "reasoning": "Clause 6.2 explicitly forbids non-registered students from staying overnight."
+  },
+  {
+    "query": "Can the Appeals Committee waive the rule about library fines preventing class registration?",
+    "expected_state": "CONSENSUS",
+    "reasoning": "Clause 4.2 says they can waive ANY academic requirement."
+  },
+  {
+    "query": "What happens if I submit my final project 3 days past the deadline?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "The rulebook does not contain a late submission policy for assignments."
+  },
+  {
+    "query": "Can I reuse a paper I wrote last year for a new class if I don't ask the professor?",
+    "expected_state": "CONSENSUS",
+    "reasoning": "Clause 7.2 explicitly calls this self-plagiarism and forbids it without explicit permission."
+  },
+  {
+    "query": "Is there a grace period for the tuition fee before the late penalty applies?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "The table gives due dates, but no explicit 'grace period' policy is defined."
+  },
+  {
+    "query": "Can I park in the Yellow Zone on a Saturday afternoon?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 10.1 says it's reserved on weekdays. It does NOT explicitly say who can park there on weekends (could be anyone, could be closed)."
+  },
+  {
+    "query": "Will I get banned from the Wi-Fi for downloading a legal, open-source Linux file via P2P?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 8.2 only bans downloading 'copyrighted material' via P2P. It does not state the policy for legal P2P traffic."
+  },
+  {
+    "query": "Can I have a pet goldfish in my dormitory room?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "There is no mention of pets or animals in the housing regulations."
+  },
+  {
+    "query": "If I am on academic probation, can I be a regular member of the Chess Club?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 9.2 forbids holding an 'executive role', but says nothing about being a regular member."
+  },
+  {
+    "query": "Do I have to pay tuition if I drop out of the university in October?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "There is no refund or withdrawal policy mentioned anywhere."
+  },
+  {
+    "query": "Can I use ChatGPT to help me brainstorm ideas for my essay?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 7.3 prohibits using AI to 'write' essays, but says nothing about brainstorming or outlining."
+  },
+  {
+    "query": "If I hit my 500GB bandwidth limit, will I be charged a fee for extra data?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 8.1 states the cap, but does not state the penalty or mechanism for exceeding it."
+  },
+  {
+    "query": "Can I bring my own microwave for my dorm room?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 6.3 bans 'heating appliances' like space heaters and hot plates, but does not explicitly ban or permit microwaves."
+  },
+  {
+    "query": "If my car breaks down, can I submit a medical certificate to get out of the 75% attendance rule?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "A car breakdown is not a 'medical emergency', and no rule covers transportation issues."
+  },
+  {
+    "query": "How much is the fine if my car is towed from the Yellow Zone?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Clause 10.2 says towed 'at the owner's expense' but does not specify the cost."
+  },
+  {
+    "query": "If I am late paying my library fines, will I be charged a $50 late fee?",
+    "expected_state": "UNANSWERABLE",
+    "reasoning": "Table says degrees are withheld, but does not explicitly mention a $50 fee for library fines (only for tuition)."
+  }
+]
