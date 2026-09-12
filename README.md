@@ -29,7 +29,7 @@ Unlike standard LLM chatbots that "hallucinate" confidence or smooth over confli
 
 ```bash
 git clone https://github.com/chetankhairnar05/Rulebook_argue_itself_project.git
-cd university-rulebook-ragg
+cd Rulebook_argue_itself_project
 ```
 
 **2. Create and activate a virtual environment**
