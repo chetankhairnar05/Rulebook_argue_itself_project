@@ -66,7 +66,7 @@ GEMINI_API_KEY=your_actual_api_key_here
 streamlit run app.py
 ```
 
-> **Note:** The system features smart file-hashing. It will automatically detect if `data/rulebook.md` has been modified and will seamlessly rebuild the vector database if needed.
+> **Note:** The system features smart file-hashing. It will automatically get detected if `data/rulebook.md` has been modified and will seamlessly rebuild the vector database if needed.
 
 **To run the automated evaluation script:**
 
